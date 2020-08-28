@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+<Resource name="jdbc/managementdb"
+auth="container" 
+type="javax.sql.DataSource"
+maxActive="20" maxIdle="5" maxWait="10000"
+username="root" password="hdmi@9833"
+driverClassName="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/management"
+/>
+
+
+</context>
